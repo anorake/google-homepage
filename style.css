@@ -1,0 +1,147 @@
+ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 15px;
+    padding: 0;
+    overflow: hidden;
+    align-items: center;
+}
+
+.blue-case {
+    width: 75px;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgba(47, 104, 226, 0.705);
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+.blue-case a {
+    color: white;
+    font-weight: bold;   
+}
+
+.blue-case a:hover {
+    text-decoration: none;
+}
+
+.topbar {
+    text-align: right;
+    height: 30px;
+    vertical-align: middle;
+    line-height: 30px;
+}
+
+li a {
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+    font-size: 12px;
+   
+}
+
+li a img {
+    vertical-align: middle;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+li {
+    float: right;
+    margin-right: 20px;
+}
+.tophalf {
+    text-align: center;
+    margin-top: 175px;
+}
+
+.bothalf {
+    margin-top: 20px
+}
+
+.search-field {
+    width: 500px;
+    height: 40px;
+    border-color: rgb(197, 193, 193);
+    border-radius: 40px;
+    border-style: solid;
+    border-width: 0.25mm;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+.search-field:hover {
+    border-width: 0.50mm;
+    border-color: grey;
+}
+
+.search-field ul {
+    float: left;
+    vertical-align: middle;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.search-field li {
+    margin-left: 15px;    
+}
+
+.search-field input {
+    background-color: white;
+    border-style: none;
+    width: 350px;
+}
+.botbar {
+    position: absolute;
+    height: 50px;
+    color: rgb(187, 187, 187);
+    background-color: rgb(231, 231, 231);
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+}
+
+.botbar a {
+    color:hsl(0, 0%, 36%);
+}
+
+.botbar .right {
+    float: right;
+}
+
+.botbar .left {
+    float: left;
+}
+
+#first {
+    margin-left: 25px;
+}
+
+.searchbutton {
+    text-align: center;
+    height: 40px;
+    width: 200px;
+    background-color: rgb(236, 236, 236);
+    vertical-align: middle;
+    line-height: 40px;
+    border-radius: 5px;
+    color: grey;
+}
+
+.buttons {
+    width: 500px;
+    height: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    vertical-align: middle;
+}
+
+.buttons ul {
+    float: center;
+}
